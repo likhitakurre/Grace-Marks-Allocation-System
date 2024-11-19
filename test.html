@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Marks Allocation</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-div">
+        <h1>View Grace Marks</h1>
+        <img src="logo.jpg" alt="logo">
+    </div>
+    <div class="form-container">
+    <input type="number" id="regNoInput" placeholder="Enter Registration Number">
+    <select id="dropdownYear">
+        <option value="">Select Year</option>
+    </select>
+    <select id="dropdownBranch">
+        <option value="">Select Branch</option>
+    </select>
+    </div>
+    <button id="submitBtn">Submit</button>
+    <p><div id="resultContainer"></div></p>
+    <button onclick="window.print()">Generate PDF</button>
+
+    <table id="data-table">
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div id="logout-container">
+        <button id="logout-button" onclick="window.location.href='login.html';">Logout</button>
+    </div>
+    
+    <script src="mainscript.js"></script> 
+</body>
+</html>
